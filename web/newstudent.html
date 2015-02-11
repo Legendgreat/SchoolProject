@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Student toevoegen</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="nav">
+            <a href="index.html">Home</a>
+            <a href="newstudent.html" class="selected">Nieuwe Student</a>
+            <a href="allstudents.jsp">Alle Studenten</a>
+            <a href="newteam.html">Nieuw Team</a>
+            <a href="allteams.jsp">Alle Teams</a>
+        </div>
+        <div id="content">
+            <form action="newstudent.jsp" method="get">
+                <label>Spelers code:</label> <input type="text" name="spelerscode" maxlength="15"><br>
+                <label>Spelers nummer:</label> <input type="text" name="spelersnr" maxlength="11"><br>
+                <label>Roepnaam:</label> <input type="text" name="roepnaam" maxlength="20"><br>
+                <label>Tussenvoegsels:</label> <input type="text" name="tussenvoegsels" maxlength="10"><br>
+                <label>Achternaam:</label> <input type="text" name="achternaam" maxlength="30"><br>
+                <label>Adres:</label> <input type="text" name="adres" maxlength="25"><br>
+                <label>Postcode:</label> <input type="text" name="postcode" maxlength="7"><br>
+                <label>Woonplaats:</label> <input type="text" name="woonplaats" maxlength="25"><br>
+                <label>Telefoon:</label> <input type="text" name="telefoon" maxlength="11"><br>
+                <label>Geboortedatum:</label>
+                <select name="donifaggot">
+                    <option>01</option>
+                    <option>02</option>
+                    <option>03</option>
+                    <option>04</option>
+                    <option>05</option>
+                    <option>06</option>
+                    <option>07</option>
+                    <option>08</option>
+                    <option>09</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                    <option>15</option>
+                    <option>16</option>
+                    <option>17</option>
+                    <option>18</option>
+                    <option>19</option>
+                    <option>20</option>
+                    <option>21</option>
+                    <option>23</option>
+                    <option>24</option>
+                    <option>25</option>
+                    <option>26</option>
+                    <option>27</option>
+                    <option>28</option>
+                    <option>29</option>
+                    <option>30</option>
+                    <option>31</option>
+                </select>
+                <select name="emilioricardojuarezfaggot">
+                    <option>01</option>
+                    <option>02</option>
+                    <option>03</option>
+                    <option>04</option>
+                    <option>05</option>
+                    <option>06</option>
+                    <option>07</option>
+                    <option>08</option>
+                    <option>09</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                </select>
+                <select name="kontpak">
+                    <option>2000</option>
+                    <option>1999</option>
+                    <option>1998</option>
+                    <option>1997</option>
+                    <option>1996</option>
+                    <option selected>1995</option>
+                    <option>1994</option>
+                    <option>1993</option>
+                    <option>1992</option>
+                    <option>1991</option>
+                    <option>1990</option>
+                </select><br><br>
+
+                <input type="submit" name="Submit">
+                <input type="reset" name="Reset"><br>
+                <a href="index.html">Terug naar homepage.</a>
+            </form>
+        </div>
+    </body>
+</html>

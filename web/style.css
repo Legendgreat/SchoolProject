@@ -1,0 +1,78 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 22, 2014, 5:41:55 PM
+    Author     : Syftelurth
+*/
+body{
+    background-color: #ccffcc;
+}
+table{
+    border: 2px black inset;
+    background-color: #ffff33;
+}
+td{
+    border: 0px solid black;
+    padding: 0px 8px;
+}
+.head td{
+    border: 2px solid black;
+    text-align: center;
+    font-weight: bold;
+}
+label{
+    width: 8em;
+    float: left;
+    text-align: center;
+}
+li .navItem{
+    top: auto;
+    display: block;
+}
+td#delete{
+    text-align: center;
+}
+div#nav{
+    display: box;
+    background-color: greenyellow;
+    padding: 10px;
+    width: 1450px;
+    margin: 10px auto;
+    height: 36px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+div#nav a{
+    padding: 6px 10px;
+    margin-right: 4px;
+    float: left;
+    border: 1px solid black;
+    background-color: #00cc00;
+    color: white;
+    text-decoration: none;
+}
+div#nav a.selected{
+    margin-top: -4px;
+}
+div#nav a:hover{
+    background-color: #006600;
+}
+div#content{
+    display: box;
+    background-color: greenyellow;
+    padding: 12px 15px;
+    margin: auto;
+    width: 60%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+div#content.getstudent{
+    width: 83%;
+}
+div#content.getteam{
+    width: 30%
+}

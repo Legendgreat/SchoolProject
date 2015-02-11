@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Team toevoegen</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="nav">
+            <a href="index.html">Home</a>
+            <a href="newstudent.html">Nieuwe Student</a>
+            <a href="allstudents.jsp">Alle Studenten</a>
+            <a href="newteam.html" class="selected">Nieuw Team</a>
+            <a href="allteams.jsp">Alle Teams</a>
+        </div>
+        <div id="content">
+            <form action="newteam.jsp" method="get">
+                <label>Team code:</label> <input type="text" name="teamcode" maxlength="15"><br>
+                <label>Team omschrijving:</label> <input type="text" name="teamomschrijving" maxlength="40"><br><br>
+                <input type="submit" name="Submit">
+                <input type="reset" name="Reset"><br>
+                <a href="index.html">Terug naar homepage.</a>
+            </form>
+        </div>
+    </body>
+</html>
